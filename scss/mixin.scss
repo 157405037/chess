@@ -1,0 +1,15 @@
+@mixin center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin centerMarign($w,$h){
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: - $w/2;
+  margin-top: - $h/2;
+}
